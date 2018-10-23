@@ -1,0 +1,193 @@
+/* Colors and fonts */
+
+body {
+	/*background: url("images/fond2.jpg");*/
+	background-color: #f9f9f9;
+	text-align: center;
+	margin:0;
+	text-decoration: justify;
+  	background-position:fixed;
+  	padding:0px;
+  	margin:0px;
+}
+
+
+p {
+	color: #9d8f8f	;
+	font-family: 'Helvetica';
+	text-align: center;
+	width: 700px;
+	margin: auto;
+	text-align: justify;
+}
+
+h1 {
+	color: #625757;
+	font-family: 'Amatic SC';
+	font-size: 80px;
+	font-weight: 750;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+h2 {
+
+	color: #625757;
+	font-family: 'Economica';
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h3 {
+
+	color: #9d8f8f;
+	font-family: 'Open Sans';
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: #9d8f8f;
+	transition: color 0.2s ease;
+}
+
+a:hover {
+
+	color: #625757;
+}
+
+i {
+	font-size: 30px;
+	color: #625757;
+}
+
+i:hover {
+	color: white;
+}
+
+
+
+
+
+
+
+/* Custom design with class */
+
+
+
+.list-without-bullet-point {
+
+	list-style-type: none;
+	background-color: #DDD5CA;
+	padding:20px;
+	margin-top: 15px;
+	margin-bottom: -1px;
+	font-family: 'Open Sans Condensed';
+	font-weight: lighter;
+	font-size: 23px;
+}
+
+.list-without-bullet-point a {
+	a:hover: white;
+}
+
+
+.list-without-bullet-point li {
+
+	display: inline;
+	margin: 20px;
+	color:#625757;
+}
+
+.link-hover:hover {
+	color:white;
+}
+
+.photo-de-lucille {
+  	width: 200px;
+	border-radius: 50%;
+	padding: 20px;
+	margin-top: 5px;
+}
+
+
+.container {
+	width: 700px;
+	margin :40px auto;
+}
+
+.card-design {
+	width: 700px;
+	border-bottom: 1px dotted #bcbab8;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+
+.ig-picture-size {
+	width:200px; 
+	margin-right: 0;
+}
+
+/* Design adjustment using id */
+
+#header {
+
+	background-image: url("images/fond2.jpg");
+	background-position:fixed;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position : center;
+	width: 100%;
+	padding:1px;
+}
+
+#footer-color {
+	background: #DDD5CA;
+	width: 100%;
+}
+
+#footer-text-color{
+	color: #625757;
+	font-family: 'Amatic SC';
+	font-size: 45px;
+}
+
+#footer-margin {
+	width:100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top:50px;
+}
+
+#email-color {
+	color:#625757;
+	font-family: 'Helvetica';
+	text-align: center;
+}
+
+#email-margin{
+	margin:20px auto;
+}
+
+
+#img-banere-size {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
