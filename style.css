@@ -1,7 +1,7 @@
 /* Colors and fonts */
 
+
 body {
-	/*background: url("images/fond2.jpg");*/
 	background-color: #f9f9f9;
 	text-align: center;
 	margin:0;
@@ -99,6 +99,15 @@ i:hover {
 	color:#625757;
 }
 
+@media (max-width: 762px) {
+  .list-without-bullet-point li {
+
+	display: block;
+	margin: 20px;
+	color:#625757;
+}
+}
+
 .link-hover:hover {
 	color:white;
 }
@@ -116,6 +125,8 @@ i:hover {
 	margin :40px auto;
 }
 
+
+
 .card-design {
 	width: 700px;
 	border-bottom: 1px dotted #bcbab8;
@@ -126,16 +137,35 @@ i:hover {
 	text-align: center;
 }
 
+@media (max-width: 960px) {
+  .card-design {
+    width: 700px;
+  }
+}
+
+@media (max-width:760px) {
+	.card-design {
+		width:300px;
+	}
+}
+
+@media (max-width:500px) {
+	.card-design {
+		width:200px;
+	}
+}
 
 .ig-picture-size {
 	width:200px; 
 	margin-right: 0;
 }
 
-
 .card-without-border {
 	border: none;
+	margin-bottom: 10px;
+	padding-bottom: 0;
 }
+
 
 /* Design adjustment using id */
 
@@ -181,10 +211,12 @@ i:hover {
 
 
 #img-banere-size {
-	width: 100%;
-	margin-top: 70px;
-	margin-bottom: 70px;
+	width: 95%;
+	margin:90px auto;
+
 }
+
+
 
 
 
