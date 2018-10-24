@@ -132,6 +132,11 @@ i:hover {
 	margin-right: 0;
 }
 
+
+.card-without-border {
+	border: none;
+}
+
 /* Design adjustment using id */
 
 #header {
@@ -177,6 +182,8 @@ i:hover {
 
 #img-banere-size {
 	width: 100%;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 
 
