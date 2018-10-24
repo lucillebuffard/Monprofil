@@ -223,7 +223,15 @@ i:hover {
 
 }
 
+#link-enterprise-hover {
+	color:#9d8f8f;
+	font-weight: bold;
+}
 
+
+#link-enterprise-hover:hover {
+	color: #625757;
+}
 
 
 
